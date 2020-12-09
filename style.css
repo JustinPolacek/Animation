@@ -10,10 +10,13 @@ main{
 }
 
 .landing{
-    min-height: 100vh;
-    background: url(/hero.jpg);
-    background-size: cover;
-    padding: 0rem 5rem;
+   background-image: url(/pexels-hristo-fidanov-1252869.jpg);
+   min-height: 100vh;
+   background-position: center;
+   object-fit: fill;
+   padding: 0rem 5rem;
+   background-repeat: no-repeat;
+   background-size: 2000px;
 }
 
 nav{
@@ -32,28 +35,31 @@ nav{
 .nav-links li{
     padding-left: 10rem;
     font-size: 1.2rem;
+    color: white;
 
 }
 
 #Logo{
-    font-family: "Lobster", cursive;
+    font-family: 'Rajdhani', sans-serif;
     font-weight: lighter;
     font-size: 2rem;
+    color: white;
 }
 
 .big-text{
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -30%);
+    transform: translate(-50%, -50%);
     font-size: 5rem;
-    font-family: "Lobster", cursive;
-    color: rgb(61, 61, 61)
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    font-weight: 300;
 }
 
 
 .intro{
-    background-color: black;
+    background-color:  black;
     position: fixed;
     top: 0;
     left: 0;
@@ -62,22 +68,36 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Cinzel', serif;
 }
 
 .intro-text{
     color: rgb(185, 201, 216);
-    font-family: "Heebo", sans-serif;
-    font-size: 3rem;
+    font-size: 2.1rem;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 100;
+}
+.text-2{
+    color: rgb(241, 180, 65);
+
+
 }
 
+.text-3{
+    color: rgb(113, 113, 199);
+
+}
+
+
 .slider{
-    background-color: rgb(111, 121, 136);
+    background-color:  rgb(240, 204, 138);
     position: fixed;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    transform: translateY(100%);
+    transform: translateX(100%);
+    
 
     
 }
@@ -93,3 +113,4 @@ nav{
     transform: translateY(100%);
     display: inline-block;
 }
+
